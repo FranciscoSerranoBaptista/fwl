@@ -1,15 +1,14 @@
-# fwl
+fwl
+===
 
-To install dependencies:
+[tree-sitter] grammar for the WorkflowAI language
 
-```bash
-bun install
-```
+[tree-sitter]: https://tree-sitter.github.io
 
-To run:
+This grammar is able to parse the entire WorkflowAI yaml structures
 
-```bash
-bun run index.ts
-```
+Usage
+-----
 
-This project was created using `bun init` in bun v1.1.20. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+fwl, as with all tree-sitter grammars, is of limited utility on
+its own. Instead, fwl is best used as an extension in other projects. For example, as ane extension in ZED, the editor.
