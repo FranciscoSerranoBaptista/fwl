@@ -1,0 +1,10 @@
+id = "fwl"
+name = "Francisco's Workflow Language"
+version = "0.0.1"
+schema_version = 1
+authors = ["Francisco Serrano Baptista <francisco.baptista@gmail.com"]
+description = "Frnacisco's Workflow Language is a simple grammar for the WorkflowAI Application. The Grammar presented here serves as an extension for the Zed Editor. This extension provides syntax highlighting and code completion for the WorkflowAI Application."
+
+[grammars.gleam]
+repository = "https://github.com/gleam-lang/tree-sitter-gleam"
+commit = "58b7cac8fc14c92b0677c542610d8738c373fa81"
